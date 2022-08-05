@@ -69,7 +69,7 @@ CSPB 3287 Final Project
 <p> Next CTEs are calculated for the count of the games where each team won at home and away </p>
 <p> Chicago's wins are summed together for home and away, this number is converted into a percentage to represent the percentage of the last 10 games that Chicago played against Philadelphia where Chicago won </p>
 
-![PlayerProps](images/PlayerPropsQuery.png)
+![Team_Wins](TeamWinPercentage.png)
 
 <p> If the above image does not load please see PlayerPropsQuery.png in the images folder for look at the code and results of the Player Props Query </p>
 <h3> Reminder : To look at these queries and the many more that were used for this project (team rosters, player averages etc.) please see the queries.ipynb file </h3>
