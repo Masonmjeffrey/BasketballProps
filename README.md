@@ -58,3 +58,19 @@ CSPB 3287 Final Project
 
 </br>
 <p> 
+
+![PlayerProps](PlayerPropsQuery.png)
+
+<p> If the above image does not load please see PlayerPropsQuery.png in the images folder for look at the code and results of the Player Props Query </p>
+<p> The second main query implemented was to calculate the win percentages for one specified team against another. </p>
+<p> This query is demonstrated by finding the percentage of the last ten games that the Chicago Bulls won against the Philadelphia 76ers </p>
+<p> First two CTEs are created one for Philadelphia GAME_IDs and one for Chicago GAME_IDs. </p>
+<p> Next a CTE of the last ten GAME_IDs where Chicago Played Philadelphia is Created </p>
+<p> Next CTEs are calculated for the count of the games where each team won at home and away </p>
+<p> Chicago's wins are summed together for home and away, this number is converted into a percentage to represent the percentage of the last 10 games that Chicago played against Philadelphia where Chicago won </p>
+
+![PlayerProps](images/PlayerPropsQuery.png)
+
+<p> If the above image does not load please see PlayerPropsQuery.png in the images folder for look at the code and results of the Player Props Query </p>
+<h3> Reminder : To look at these queries and the many more that were used for this project (team rosters, player averages etc.) please see the queries.ipynb file </h3>
+<p> Note that the database used was unable to store all of the data contained in the CSV files, while the Player Props query and Team Win Percentage query both work as expected, the others do not as they are missing several games and several games_details records. This has been tessted locally and the other queries perform as expected. That can be confirmed in Rough_Draft.ipynb which contains a pandassql version of the queries and operates as expected (only explore it if you want to see those results otherwise the file is not relevant) </p>
